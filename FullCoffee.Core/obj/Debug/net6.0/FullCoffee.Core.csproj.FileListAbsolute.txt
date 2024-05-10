@@ -1,0 +1,12 @@
+C:\Users\fatma\OneDrive\Desktop\FullCoffeeApiApp\FullCoffee.Core\bin\Debug\net6.0\FullCoffee.Core.deps.json
+C:\Users\fatma\OneDrive\Desktop\FullCoffeeApiApp\FullCoffee.Core\bin\Debug\net6.0\FullCoffee.Core.dll
+C:\Users\fatma\OneDrive\Desktop\FullCoffeeApiApp\FullCoffee.Core\bin\Debug\net6.0\FullCoffee.Core.pdb
+C:\Users\fatma\OneDrive\Desktop\FullCoffeeApiApp\FullCoffee.Core\obj\Debug\net6.0\FullCoffee.Core.csproj.AssemblyReference.cache
+C:\Users\fatma\OneDrive\Desktop\FullCoffeeApiApp\FullCoffee.Core\obj\Debug\net6.0\FullCoffee.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fatma\OneDrive\Desktop\FullCoffeeApiApp\FullCoffee.Core\obj\Debug\net6.0\FullCoffee.Core.AssemblyInfoInputs.cache
+C:\Users\fatma\OneDrive\Desktop\FullCoffeeApiApp\FullCoffee.Core\obj\Debug\net6.0\FullCoffee.Core.AssemblyInfo.cs
+C:\Users\fatma\OneDrive\Desktop\FullCoffeeApiApp\FullCoffee.Core\obj\Debug\net6.0\FullCoffee.Core.csproj.CoreCompileInputs.cache
+C:\Users\fatma\OneDrive\Desktop\FullCoffeeApiApp\FullCoffee.Core\obj\Debug\net6.0\FullCoffee.Core.dll
+C:\Users\fatma\OneDrive\Desktop\FullCoffeeApiApp\FullCoffee.Core\obj\Debug\net6.0\refint\FullCoffee.Core.dll
+C:\Users\fatma\OneDrive\Desktop\FullCoffeeApiApp\FullCoffee.Core\obj\Debug\net6.0\FullCoffee.Core.pdb
+C:\Users\fatma\OneDrive\Desktop\FullCoffeeApiApp\FullCoffee.Core\obj\Debug\net6.0\ref\FullCoffee.Core.dll

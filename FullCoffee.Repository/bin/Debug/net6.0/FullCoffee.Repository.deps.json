@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "FullCoffee.Repository/1.0.0": {
+        "dependencies": {
+          "FullCoffee.Core": "1.0.0"
+        },
+        "runtime": {
+          "FullCoffee.Repository.dll": {}
+        }
+      },
+      "FullCoffee.Core/1.0.0": {
+        "runtime": {
+          "FullCoffee.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FullCoffee.Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FullCoffee.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

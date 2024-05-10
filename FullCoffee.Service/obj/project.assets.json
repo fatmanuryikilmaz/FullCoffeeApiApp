@@ -1,0 +1,109 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "FullCoffee.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/FullCoffee.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FullCoffee.Core.dll": {}
+        }
+      },
+      "FullCoffee.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "FullCoffee.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FullCoffee.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FullCoffee.Repository.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FullCoffee.Core/1.0.0": {
+      "type": "project",
+      "path": "../FullCoffee.Core/FullCoffee.Core.csproj",
+      "msbuildProject": "../FullCoffee.Core/FullCoffee.Core.csproj"
+    },
+    "FullCoffee.Repository/1.0.0": {
+      "type": "project",
+      "path": "../FullCoffee.Repository/FullCoffee.Repository.csproj",
+      "msbuildProject": "../FullCoffee.Repository/FullCoffee.Repository.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "FullCoffee.Repository >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\fatma\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\fatma\\OneDrive\\Desktop\\FullCoffeeApiApp\\FullCoffee.Service\\FullCoffee.Service.csproj",
+      "projectName": "FullCoffee.Service",
+      "projectPath": "C:\\Users\\fatma\\OneDrive\\Desktop\\FullCoffeeApiApp\\FullCoffee.Service\\FullCoffee.Service.csproj",
+      "packagesPath": "C:\\Users\\fatma\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\fatma\\OneDrive\\Desktop\\FullCoffeeApiApp\\FullCoffee.Service\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\fatma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\fatma\\OneDrive\\Desktop\\FullCoffeeApiApp\\FullCoffee.Repository\\FullCoffee.Repository.csproj": {
+              "projectPath": "C:\\Users\\fatma\\OneDrive\\Desktop\\FullCoffeeApiApp\\FullCoffee.Repository\\FullCoffee.Repository.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
