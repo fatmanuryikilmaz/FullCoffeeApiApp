@@ -13,3 +13,5 @@ C:\Users\fatma\OneDrive\Desktop\FullCoffeeApiApp\FullCoffee.Repository\obj\Debug
 C:\Users\fatma\OneDrive\Desktop\FullCoffeeApiApp\FullCoffee.Repository\obj\Debug\net6.0\refint\FullCoffee.Repository.dll
 C:\Users\fatma\OneDrive\Desktop\FullCoffeeApiApp\FullCoffee.Repository\obj\Debug\net6.0\FullCoffee.Repository.pdb
 C:\Users\fatma\OneDrive\Desktop\FullCoffeeApiApp\FullCoffee.Repository\obj\Debug\net6.0\ref\FullCoffee.Repository.dll
+C:\Users\fatma\OneDrive\Desktop\FullCoffeeApiApp\FullCoffee.Repository\bin\Debug\net6.0\FullCoffee.Repository.runtimeconfig.json
+C:\Users\fatma\OneDrive\Desktop\FullCoffeeApiApp\FullCoffee.Repository\obj\Debug\net6.0\FullCoffee.Repository.genruntimeconfig.cache
