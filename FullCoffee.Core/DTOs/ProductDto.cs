@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FullCoffee.Core
+namespace FullCoffee.Core.DTOs
 {
-    public class Product:BaseEntity
+    public class ProductDto:BaseDto
     {
         public string Name { get; set; }
         public string Price { get; set; }
@@ -14,8 +14,5 @@ namespace FullCoffee.Core
         public string? Image { get; set; }
 
         public int CategoryId { get; set; }
-
-        public Category Category { get; set; }
-        public ProductDetail ProductDetail { get; set; }
     }
 }

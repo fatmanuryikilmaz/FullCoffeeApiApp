@@ -4,6 +4,8 @@ using FullCoffee.Core.UnitOfWorks;
 using FullCoffee.Repository;
 using FullCoffee.Repository.Repositories;
 using FullCoffee.Repository.UnitOfWorks;
+using FullCoffee.Service.Mapping;
+using FullCoffee.Service.Services;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection;
 
@@ -18,7 +20,9 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped(typeof(IGenericRepository<>),typeof(GenericRepository<>));
-//builder.Services.AddScoped(typeof(IService<>),typeof(Service<>));
+builder.Services.AddScoped(typeof(IService<>),typeof(Service<>));
+builder.Services.AddAutoMapper(typeof(MapProfile));
+
 
 builder.Services.AddDbContext<AppDbContext>(x=>
 {

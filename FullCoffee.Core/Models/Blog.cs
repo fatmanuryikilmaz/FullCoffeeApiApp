@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FullCoffee.Core
+namespace FullCoffee.Core.Models
 {
-    public class Blog:BaseEntity
+    public class Blog : BaseEntity
     {
         public string Title { get; set; }
         public string Description { get; set; }

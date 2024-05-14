@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Ud5DqUvu40UVrvQ1fFuPCuxcOjBTYxwIUup+M8bzJhTaC8/irKqx8y8xgUTE/X6uh3GAX669g/Nycc/XwB0uXA==",
+  "dgSpecHash": "nJgNKTuypL4f30cirDTZsfGKm4X0uEeivzDOgMbfQmj0Aw6mYn+rLueRn/KhglgPxLS02iZ4YqRXBetyIF40vg==",
   "success": true,
   "projectFilePath": "C:\\Users\\fatma\\OneDrive\\Desktop\\FullCoffeeApiApp\\FullCoffee.API\\FullCoffee.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\fatma\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
+    "C:\\Users\\fatma\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\fatma\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
-    "C:\\Users\\fatma\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\fatma\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\fatma\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\fatma\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\fatma\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.1\\microsoft.entityframeworkcore.6.0.1.nupkg.sha512",
