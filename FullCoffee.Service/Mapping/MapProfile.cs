@@ -19,6 +19,8 @@ namespace FullCoffee.Service.Mapping
           CreateMap<Blog,BlogDto>().ReverseMap();
           CreateMap<User,UserDto>().ReverseMap();
           CreateMap<ProductUpdateDto,Product>();
+          CreateMap<Product, ProductWithCategoryDto>();
+            CreateMap<Category,CategoryWithProductsDto>();
         }
     }
 }
