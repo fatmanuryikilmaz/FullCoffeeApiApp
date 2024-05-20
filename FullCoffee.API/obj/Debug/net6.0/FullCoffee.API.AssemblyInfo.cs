@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FullCoffee.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+68475fd16c2c179125bd7c1ffc3982e70c984d72")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+23ae97b4866196e9d8195a696b0ae06056b62930")]
 [assembly: System.Reflection.AssemblyProductAttribute("FullCoffee.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FullCoffee.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

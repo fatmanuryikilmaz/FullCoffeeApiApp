@@ -1,13 +1,13 @@
 ﻿using AutoMapper;
+using FullCoffee.API.Filters;
 using FullCoffee.Core.DTOs;
 using FullCoffee.Core.Models;
 using FullCoffee.Core.Services;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FullCoffee.API.Controllers
 {
-    
+
     public class ProductsController : CustomBaseController
     {
         private readonly IMapper _mapper;

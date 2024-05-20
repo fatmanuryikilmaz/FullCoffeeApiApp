@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "9fJHilA06CYolbZpN6g6o+W28vJbXcRvVUMI4rRvv/PFwlAMgYzqoiGsEBTusQMoq16iEq85rbYL0zvTUhRbUg==",
+  "dgSpecHash": "kwE6F/Ft2t5tVpOddX6a/yhnD+9yv+7yKJCJyVxl3k2piCFUeb8hsX/0hz+IQHo/tRUnQqNPZBedlNDhyqQUCA==",
   "success": true,
   "projectFilePath": "C:\\Users\\fatma\\OneDrive\\Desktop\\FullCoffeeApiApp\\FullCoffee.Service\\FullCoffee.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fatma\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\fatma\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\fatma\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\fatma\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\fatma\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\fatma\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\fatma\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\fatma\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",

@@ -1,4 +1,6 @@
 using FikaCoffeeShop.Service.Services;
+using FluentValidation.AspNetCore;
+using FullCoffee.API.Filters;
 using FullCoffee.Core.Repositories;
 using FullCoffee.Core.Services;
 using FullCoffee.Core.UnitOfWorks;
@@ -7,6 +9,8 @@ using FullCoffee.Repository.Repositories;
 using FullCoffee.Repository.UnitOfWorks;
 using FullCoffee.Service.Mapping;
 using FullCoffee.Service.Services;
+using FullCoffee.Service.Validations;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection;
 
@@ -14,7 +18,14 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddControllers();
+builder.Services.AddControllers(options => options.Filters.Add(new ValidateFilterAttribute())).AddFluentValidation(x => x.RegisterValidatorsFromAssemblyContaining<ProductDtoValidator>());
+
+builder.Services.Configure<ApiBehaviorOptions>(options =>
+{
+    options.SuppressModelStateInvalidFilter = true;
+});
+
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
