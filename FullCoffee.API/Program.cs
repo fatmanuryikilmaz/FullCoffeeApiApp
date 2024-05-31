@@ -1,6 +1,8 @@
 using FikaCoffeeShop.Service.Services;
 using FluentValidation.AspNetCore;
 using FullCoffee.API.Filters;
+using FullCoffee.API.Middlewares;
+using FullCoffee.Core.Models;
 using FullCoffee.Core.Repositories;
 using FullCoffee.Core.Services;
 using FullCoffee.Core.UnitOfWorks;
@@ -10,11 +12,16 @@ using FullCoffee.Repository.UnitOfWorks;
 using FullCoffee.Service.Mapping;
 using FullCoffee.Service.Services;
 using FullCoffee.Service.Validations;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using System.Reflection;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
+ConfigurationManager configuration = builder.Configuration;
 
 // Add services to the container.
 
@@ -51,6 +58,32 @@ builder.Services.AddDbContext<AppDbContext>(x=>
 });
 
 
+builder.Services.AddIdentity<User, IdentityRole<int>>()
+    .AddEntityFrameworkStores<AppDbContext>()
+    .AddDefaultTokenProviders();
+    
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
+}).AddJwtBearer(options =>
+{
+    options.SaveToken = true;
+    options.RequireHttpsMetadata = false;
+    options.TokenValidationParameters = new TokenValidationParameters()
+    {
+        ValidateIssuer = true,
+        ValidateAudience = true,
+        ValidAudience = configuration["JWT:ValidAudience"],
+        ValidIssuer = configuration["JWT:ValidIssuer"],
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["JWT:Secret"]))
+    };
+});
+
+
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -60,9 +93,14 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+
 app.UseHttpsRedirection();
 
+app.UseCustomException();
+
+app.UseAuthentication();
 app.UseAuthorization();
+
 
 app.MapControllers();
 

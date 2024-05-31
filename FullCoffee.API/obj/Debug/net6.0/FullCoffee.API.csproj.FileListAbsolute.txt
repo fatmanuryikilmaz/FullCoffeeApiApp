@@ -75,3 +75,5 @@ C:\Users\fatma\OneDrive\Desktop\FullCoffeeApiApp\FullCoffee.API\obj\Debug\net6.0
 C:\Users\fatma\OneDrive\Desktop\FullCoffeeApiApp\FullCoffee.API\bin\Debug\net6.0\FluentValidation.dll
 C:\Users\fatma\OneDrive\Desktop\FullCoffeeApiApp\FullCoffee.API\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
 C:\Users\fatma\OneDrive\Desktop\FullCoffeeApiApp\FullCoffee.API\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\fatma\OneDrive\Desktop\FullCoffeeApiApp\FullCoffee.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\fatma\OneDrive\Desktop\FullCoffeeApiApp\FullCoffee.API\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll

@@ -3,11 +3,13 @@ using FullCoffee.API.Filters;
 using FullCoffee.Core.DTOs;
 using FullCoffee.Core.Models;
 using FullCoffee.Core.Services;
+using FullCoffee.Service.Helpers;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FullCoffee.API.Controllers
 {
-
+    [Authorize(UserRoleHelper.Admin)]
     public class ProductsController : CustomBaseController
     {
         private readonly IMapper _mapper;
@@ -17,11 +19,13 @@ namespace FullCoffee.API.Controllers
             _mapper = mapper;
             _service = productService;
         }
+        [AllowAnonymous]
         [HttpGet("[action]")]
         public async Task<IActionResult> GetProductsWithCategory()
         {
             return CreateActionResult(await _service.GetProductsWithCategory());
         }
+        [AllowAnonymous]
         [HttpGet]
         public async Task<IActionResult> All()
         {
@@ -29,6 +33,7 @@ namespace FullCoffee.API.Controllers
             var productsDtos=_mapper.Map<List<ProductDto>>(products.ToList());
             return CreateActionResult(CustomResponseDto<List<ProductDto>>.Success(200, productsDtos));
         }
+        [AllowAnonymous]
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {

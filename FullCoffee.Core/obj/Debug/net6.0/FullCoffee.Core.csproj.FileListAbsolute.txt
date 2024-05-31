@@ -10,3 +10,4 @@ C:\Users\fatma\OneDrive\Desktop\FullCoffeeApiApp\FullCoffee.Core\obj\Debug\net6.
 C:\Users\fatma\OneDrive\Desktop\FullCoffeeApiApp\FullCoffee.Core\obj\Debug\net6.0\FullCoffee.Core.pdb
 C:\Users\fatma\OneDrive\Desktop\FullCoffeeApiApp\FullCoffee.Core\obj\Debug\net6.0\ref\FullCoffee.Core.dll
 C:\Users\fatma\OneDrive\Desktop\FullCoffeeApiApp\FullCoffee.Core\obj\Debug\net6.0\FullCoffee.Core.sourcelink.json
+C:\Users\fatma\OneDrive\Desktop\FullCoffeeApiApp\FullCoffee.Core\obj\Debug\net6.0\FullCoffee.Core.csproj.AssemblyReference.cache
